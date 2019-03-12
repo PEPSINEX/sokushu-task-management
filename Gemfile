@@ -20,6 +20,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'slim-rails'  # Slimジェネレータ
 gem 'html2slim' # ERB→slim変換コマンド提供
+gem 'bootstrap' # デザイン
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
