@@ -4,9 +4,8 @@ class CreateTasks < ActiveRecord::Migration[5.2]
       t.string :name, limit: 30, null: false
       t.text :description
       
-      t.index :name, unique: true 
-      
       t.timestamps
+      t.index :name, unique: true 
     end
   end
 end
